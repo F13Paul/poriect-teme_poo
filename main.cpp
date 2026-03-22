@@ -40,7 +40,7 @@ int main() {
     // testam si setterul pt adresa( sa zicem ca am uitat sa trec etajul)
     std::cout << "---Actualizare date client---\n";
     Adresa adresaNoua = clientPaul.getAdresa(); // luam adresa veche
-    adresaNoua.setDetalii("Ap. 12, Etaj 5, Interfon 12"); // o modificam, sa zicem ca am uitat sa pun etajul
+    adresaNoua.setDetalii("Ap. 12, Etaj 5, Interfon 12"); // o modificam
 
     std::cout << "Adresa actualizata:\n" << adresaNoua << "\n";
     clientPaul.setAdresa(adresaNoua);
@@ -48,6 +48,6 @@ int main() {
     // printam chitanta
     clientPaul.printeazaChitanta(nrPizzeComandate, comandaLuiPaul);
 
-    std::cout << "\n=== Sfarsitul programului (Curatenie Memorie) ===\n";
+    std::cout << "\n=== Sfarsitul programului (Afisare destructori) ===\n";
     return 0; 
 }
