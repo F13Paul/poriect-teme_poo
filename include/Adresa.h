@@ -8,7 +8,7 @@ private:
     char* strada;
     int numar;
     char* detalii; // daca sta la bloc, etajul, nr de apartamnet, cum sa sune, etc..
-    bool valideazaNumar(int nr) const;
+    static bool valideazaNumar(int nr);
 
 public:
     // constructori

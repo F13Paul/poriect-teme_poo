@@ -1,7 +1,7 @@
 #include "../include/Adresa.h" // path catre headerul clasei
 
 // sa zicem ca trebuie sa validam numarul strazii, sa nu fie negativ sau zero
-bool Adresa::valideazaNumar(int nr) const {
+bool Adresa::valideazaNumar(int nr) {
     return nr > 0;
 }
 
