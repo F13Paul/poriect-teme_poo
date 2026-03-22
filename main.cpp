@@ -32,6 +32,11 @@ int main() {
     std::cout << "Am inregistrat in sistem urmatorul client:\n";
     std::cout << clientPaul << "\n";
 
+    //folosire getteri si setteri
+    std::cout << "Orasul initial al livarii: " << adresaPaul.getOras()<<"\n";
+    clientPaul.setTelefon("07987654321");
+    comandaLuiPaul[0].setPret(38.5);
+
     // testam si setterul pt adresa( sa zicem ca am uitat sa trec etajul)
     std::cout << "---Actualizare date client---\n";
     Adresa adresaNoua = clientPaul.getAdresa(); // luam adresa veche
