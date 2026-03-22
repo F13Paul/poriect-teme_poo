@@ -28,6 +28,7 @@ public:
 
     // setter 
     void setTelefon(const char* telefonNou);
+    void setAdresa(const Adresa& adresaNoua);
 
     // supraincarcarea operatorului "<<"
     friend std::ostream& operator<<(std::ostream& out, const Client& c);

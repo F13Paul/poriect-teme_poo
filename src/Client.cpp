@@ -61,6 +61,10 @@ void Client::setTelefon(const char* telefonNou) {
     strcpy(this->telefon, telefonNou);
 }
 
+void Client::setAdresa(const Adresa& adresaNoua){
+    this->adresaLivrare =  adresaNoua; 
+}
+
 void Client::printeazaChitanta(int nrPizza, const Pizza* pizze) const {
     std::cout << "\n========================================\n";
     std::cout << "          CHITANTA COMANDA              ";

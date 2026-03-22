@@ -43,7 +43,8 @@ int main() {
     adresaNoua.setDetalii("Ap. 12, Etaj 5, Interfon 12"); // o modificam, sa zicem ca am uitat sa pun etajul
 
     std::cout << "Adresa actualizata:\n" << adresaNoua << "\n";
-
+    clientPaul.setAdresa(adresaNoua);
+    
     // printam chitanta
     clientPaul.printeazaChitanta(nrPizzeComandate, comandaLuiPaul);
 
