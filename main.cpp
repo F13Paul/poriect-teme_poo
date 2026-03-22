@@ -18,7 +18,7 @@ int main() {
     const char* ingr3[] = {"Smantana", "Mozzarella", "Bacon", "Parmezan"};
     Pizza p3("Carbonara", 4, ingr3, 45.0);
 
-    // sa zicem ca eu, Paul, comand 2 pizze, Margherita si Carbonarapi
+    // sa zicem ca eu, Paul, comand 2 pizze, Margherita si Carbonara
     Pizza comandaLuiPaul[] = {p1, p3}; 
     int nrPizzeComandate = 2;
 
@@ -44,7 +44,7 @@ int main() {
 
     std::cout << "Adresa actualizata:\n" << adresaNoua << "\n";
     clientPaul.setAdresa(adresaNoua);
-    
+
     // printam chitanta
     clientPaul.printeazaChitanta(nrPizzeComandate, comandaLuiPaul);
 
