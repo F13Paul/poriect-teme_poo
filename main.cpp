@@ -51,5 +51,3 @@ int main() {
     std::cout << "\n=== Sfarsitul programului (Afisare destructori) ===\n";
     return 0; 
 }
-
-// modifiacare readme, trebuie sa descriu proiectul, clasa, la ce le am folosit, functii, etc...( o saptamana la dispozitie)
